@@ -1,0 +1,229 @@
+/**
+ * FriendsRoll Wordpress plugin
+ * Copyright (c) 2008 76design/Thornley Fallis Communications
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+*/
+
+
+BODY #friendsroll {
+	width: 100%;
+	border: solid 1px #eee;
+	background: #fff;
+	overflow: hidden;
+	font: normal 10px verdana,arial,helvetica,sans-serif;
+	position:relative;
+}
+
+BODY #friendsroll H1,
+BODY #friendsroll OL,
+BODY #friendsroll UL,
+BODY #friendsroll LI,
+BODY #friendsroll P,
+BODY #friendsroll FORM,
+BODY #friendsroll INPUT,
+BODY #friendsroll IMG,
+BODY #friendsroll A,
+BODY #friendsroll A:hover,
+BODY #friendsroll DIV
+#friendsroll *
+{	
+	text-indent:none;
+	color:none;
+	background:none;
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-align:left;
+}
+
+BODY #friendsroll A {
+	color: #e86d44;
+	text-decoration: none;
+}
+
+BODY #friendsroll H1 {
+	font-size: 13px;
+	padding: 8px;
+	color: #fdb59f;
+
+}
+
+BODY #friendsroll H1 EM {
+	font-style: normal;
+	color: #cc3300;
+}
+
+BODY .wide #friendsroll OL,
+BODY  #friendsroll OL {
+	list-style: none;
+	border-top: solid 1px #e8d1ca;
+	width:100%;
+	
+}
+
+ BODY #friendsroll OL LI {
+	background: url("images/li_bkg.gif") no-repeat -4px -4px;
+	border-bottom: solid 1px #e8d1ca;
+	padding: 3px;
+	overflow: hidden;
+	margin:0;
+	width:100%;
+	}
+
+BODY #friendsroll OL LI:hover {
+	background-color: #fff4f1;
+}
+
+BODY #friendsroll OL LI.odd {
+	background: #ffe6de url("images/li_odd_bkg.gif") no-repeat -4px -4px;
+}
+
+BODY #friendsroll OL LI.odd:hover {
+	background-color: #ffd6c9;
+}
+
+BODY #friendsroll OL LI A {
+	display: block;
+	width: 100%;
+}
+
+BODY #friendsroll #fr_page_nav {
+	text-align: right;
+}
+
+BODY #friendsroll #fr_page_nav A {
+	display: inline;
+}
+
+BODY #friendsroll OL LI IMG {
+	float: left;
+	margin: 3px 12px 3px 3px;
+}
+
+BODY #friendsroll OL LI P {
+	color: #666;
+	margin: 0 0 0 32px;
+}
+
+BODY #friendsroll OL LI P.name {
+	font-size: 11px;
+	color: #990000;
+}
+
+BODY #friendsroll OL LI:hover P.name {
+	text-decoration: underline;
+}
+
+BODY #friendsroll UL {
+	padding: 8px 8px 0;
+}
+
+BODY #friendsroll UL LI {
+	margin: 0 0 3px;
+	color:#000;
+}
+
+BODY #friendsroll UL LI A
+ {
+	padding: 2px;
+}
+
+BODY #friendsroll UL LI A:hover {
+	color: #cc3300;
+	padding: 2px;
+	background: #ffe6de;
+}
+
+BODY #friendsroll UL LI FORM {
+	margin: 5px 0;
+	padding: 1px 5px;
+	background: #FFF4F1;
+	*padding-bottom: 5px;
+}
+
+BODY #friendsroll UL LI FORM INPUT.text {
+	display: block;
+	border: solid 1px #bbb;
+	width:90%;
+	background:#FFF;
+	margin: 4px 0;
+	font: normal 10px verdana,arial,helvetica,sans-serif;
+	padding: 3px;
+	color: #666;
+}
+
+BODY #friendsroll UL LI FORM INPUT:focus {
+	color: #000;
+}
+
+BODY #friendsroll UL LI FORM INPUT.button {
+	font: normal 10px verdana,arial,helvetica,sans-serif;
+	padding: 2px 0;
+	background:#cc3300;
+	border:none;
+	color:#FFF;
+	height:auto;
+	margin: 0 0 5px 0;
+	
+}
+
+BODY #friendsroll #fr_logo {
+	float: right;
+}
+
+BODY #friendsroll #friendsroll_addform.off {
+  display: none;
+}
+
+BODY #friendsroll #friendsroll_addform.on {
+  display: block;
+}
+
+BODY #friendsroll #friendsroll_message {
+	padding: 5px;
+	}
+
+
+BODY #friendsroll #friendsroll_message.error H3 {
+	color: #c40808;
+	}
+	
+BODY #friendsroll #friendsroll_message.success H3 {
+	color: #94ac50;
+	}
+	
+BODY #friendsroll #friendsroll_message H3 {
+	font-size:140%;
+	font-weight:bold;
+	color:#111;
+	margin:3px 0;
+	}
+	
+BODY #friendsroll #friendsroll_message UL {
+	list-style-type: disc;
+	}
+	
+BODY #friendsroll #friendsroll_message.off {
+  display: none;
+}
+
+BODY #friendsroll #friendsroll_message.on {
+  display: block;
+}

@@ -1,0 +1,25 @@
+Changelog for the Friendsroll plugin.
+See http://friendsroll.com
+
+April 11th, 2008 (1.4beta)
+-------------------------------
+* Upgrade for Wordpress 2.5
+
+
+March 11, 2008 (1.2beta / 1.3beta)
+-------------------------------
+* Change anti-spam protection from captcha 
+  to "are you a human?" style questions.
+* Add this changelog
+
+
+March 10, 2008 (1.1beta)
+-------------------------------
+* Remove "Show all my friends".
+* Add pagination.
+* Updates for better favicon handling.
+
+
+March 8, 2008 (1.0beta)
+-------------------------------
+* Initial release of plugin
